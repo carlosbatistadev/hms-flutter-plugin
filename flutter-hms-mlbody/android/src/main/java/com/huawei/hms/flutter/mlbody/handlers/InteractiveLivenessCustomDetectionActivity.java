@@ -64,14 +64,14 @@ public class InteractiveLivenessCustomDetectionActivity extends Activity {
 
     String failResult = "";
 
-    boolean autoSizeText = false;
+    boolean autoSizeText = true;
     private MLInteractiveLivenessConfig interactiveLivenessConfig;
 
     int minTextSize = 3;
 
     private float textSize;
 
-    int maxTextSize = 24;
+    int maxTextSize = 22;
 
     int textMargin = 900;
 
